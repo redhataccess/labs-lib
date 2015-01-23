@@ -5,4 +5,8 @@ server {
     location / {
         index  index.html index.htm;
     }
+
+    location /labs/lib {
+        alias <%= ENV['OPENSHIFT_REPO_DIR'] %>public;
+    }
 }
