@@ -1,0 +1,27 @@
+{
+  "name": "labs-lib",
+  "version": "0.0.0",
+  "homepage": "https://github.com/redhataccess/labs-lib",
+  "authors": [
+    "Ian Page Hands <ihands@redhat.com>"
+  ],
+  "description": "Shareable JS + assets for Labs apps in the Labs space for rapid iteration.",
+  "main": "js/lib-loader.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "Red",
+    "Hat",
+    "Access",
+    "Labs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
