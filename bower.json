@@ -6,7 +6,7 @@
     "Ian Page Hands <ihands@redhat.com>"
   ],
   "description": "Shareable JS + assets for Labs apps in the Labs space for rapid iteration.",
-  "main": "js/lib-loader.js",
+  "main": "public/js/lib-loader.js",
   "moduleType": [
     "amd"
   ],
@@ -17,7 +17,10 @@
     "Labs"
   ],
   "license": "MIT",
-  "ignore": [
+	"ignore": [
+    "nginx.conf.erb",
+	".openshift",
+    "*erb",
     "**/.*",
     "node_modules",
     "bower_components",
