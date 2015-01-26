@@ -6,7 +6,7 @@ labs_define('example', [], function () {
         pub  = {};
 
     pub.sayHello = function () {
-        console.log('Nín hǎo from example/main.js');
+        console.log('Ní hǎo from example/main.js');
     };
 
     pub.getMagicNumber = function () {
