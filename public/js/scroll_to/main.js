@@ -1,5 +1,5 @@
 /*global labs_define, window*/
-labs_define('scroll_two', ['jquery'], function (jq) {
+labs_define('scroll_to', ['jquery'], function (jq) {
     "use strict";
 
     var priv = {},
