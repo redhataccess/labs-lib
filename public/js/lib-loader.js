@@ -33,7 +33,7 @@
     window.labs_define = function () {
         // Try and do the AMD module definition if possible
         if (typeof define === 'function' && define.amd) {
-            define.apply(this,  Array.prototype.slice.call(arguments, 1));
+            define.apply(this, Array.prototype.slice.call(arguments, 1));
         }
 
         // Always setup a reference to this module on LabsLib
@@ -44,7 +44,7 @@
     if (window.require) {
         require.config({
             packages: [{
-                name:     'lib',
+                name: 'lib',
                 location: '/labs/lib/js/'
             }]
         });
