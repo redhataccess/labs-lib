@@ -1,5 +1,5 @@
 /*global labs_define, window*/
-labs_define('validator', ['lib/scope/main'], function (scope_module) {
+labs_define('validator', [], function () {
     "use strict";
 
     var priv = {},

@@ -1,6 +1,6 @@
 /*global labs_define, window*/
-labs_define('tooltip_provider', ['jquery', 'lib/scope/main', 'lib/tooltip_provider/ui-bootstrap-tpls-0.11.0-customized'],
-    function (jq, scope_module, ui_bootstrap) {
+labs_define('tooltip_provider', ['jquery', 'lib/tooltip_provider/ui-bootstrap-tpls-0.11.0-customized'],
+    function (jq, ui_bootstrap) {
         "use strict";
 
         var priv = {},

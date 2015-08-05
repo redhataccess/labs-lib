@@ -1,5 +1,5 @@
 /*global labs_define, window*/
-labs_define('browser_detector', ['lib/scope/main'], function (scope_module) {
+labs_define('browser_detector', [], function () {
     "use strict";
 
     var priv = {},
