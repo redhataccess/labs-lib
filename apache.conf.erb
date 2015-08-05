@@ -1,0 +1,17 @@
+Listen <%= ENV['OPENSHIFT_APACHE_IP']>
+<VirtualHost *:<%= ENV['OPENSHIFT_APACHE_IP']>>
+    #Your https info put here
+    ServerName <%= ENV['OPENSHIFT_SERVER_NAME'] %>
+    DocumentRoot <%= ENV['OPENSHIFT_REPO_DIR'] %>
+    ServerPath /labs/lib/
+    RewriteEngine On
+    RewriteRule ^/labs/lib/(.*) <%= ENV['OPENSHIFT_REPO_DIR'] %>/public/$1
+    #Other RewriteRule for your app
+
+</VirtualHost>
+
+<Directory "<%= ENV['OPENSHIFT_REPO_DIR'] %>">
+    AllowOverride All
+    # Allow open access:
+    Require all granted
+</Directory>
